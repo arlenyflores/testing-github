@@ -74,7 +74,6 @@
         <!--View Controller-->
         <scene sceneID="7KM-bx-AMl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jJe-dr-KR9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="qPP-qZ-k5e" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6W6-dW-KR8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -133,10 +132,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMC-f6-UUc">
-                                <rect key="frame" x="322" y="777" width="61" height="31"/>
+                                <rect key="frame" x="322" y="777" width="61" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="home"/>
+                                <connections>
+                                    <segue destination="6ZW-8Y-xGU" kind="show" identifier="journalToHome" id="rzD-14-59r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ae6-o6-Id6">
                                 <rect key="frame" x="187" y="597" width="57" height="31"/>
@@ -150,8 +152,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="8jI-di-Hxg"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJe-dr-KR9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1794" y="110"/>
+            <point key="canvasLocation" x="1792.753623188406" y="109.82142857142857"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5lg-8k-9Oh">
@@ -204,10 +207,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3n-Jp-vL8">
-                                <rect key="frame" x="333" y="786" width="61" height="31"/>
+                                <rect key="frame" x="333" y="786" width="61" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="home"/>
+                                <connections>
+                                    <segue destination="6ZW-8Y-xGU" kind="show" identifier="playlistToHome" id="JXw-y3-UIj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z9y-yl-3bm"/>
@@ -235,10 +241,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uem-vv-r9w">
-                                <rect key="frame" x="333" y="799" width="61" height="31"/>
+                                <rect key="frame" x="333" y="712" width="61" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="home"/>
+                                <connections>
+                                    <segue destination="6ZW-8Y-xGU" kind="show" identifier="resourcetoHome" id="gsF-EJ-Xwn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="utP-l9-U7O"/>
@@ -266,10 +275,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQu-I3-vwD">
-                                <rect key="frame" x="322" y="793" width="61" height="31"/>
+                                <rect key="frame" x="322" y="763" width="61" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="home"/>
+                                <connections>
+                                    <segue destination="6ZW-8Y-xGU" kind="show" identifier="medToHome" id="qzn-8U-b75"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bwm-IC-k0r"/>
@@ -279,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcx-Z3-4FE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4254" y="166"/>
+            <point key="canvasLocation" x="4252.1739130434789" y="164.73214285714286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pO9-7f-063">
@@ -439,6 +451,9 @@
             <point key="canvasLocation" x="950.72463768115949" y="109.82142857142857"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="rzD-14-59r"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
