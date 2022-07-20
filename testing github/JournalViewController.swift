@@ -33,7 +33,7 @@ class JournalViewController: UIViewController {
                 try AVAudioSession.sharedInstance().setMode(.default)
                 try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
                 
-                guard let url = url else {
+                guard let urlString = urlString else {
                     return
                 }
                 player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
@@ -42,7 +42,7 @@ class JournalViewController: UIViewController {
                     return
                 }
                 
-                player.play
+                player.play()
         }
             catch {
                 print("something went wrong")
@@ -58,5 +58,5 @@ class JournalViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    }
 }

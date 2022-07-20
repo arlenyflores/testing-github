@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		469B0ADE28884B5800B45A3F /* beach-waves-close-up-6757.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */; };
 		469B0AE028884C6C00B45A3F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B0ADF28884C6C00B45A3F /* JournalViewController.swift */; };
+		469B0AE228885BDD00B45A3F /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B0AE128885BDD00B45A3F /* ChecklistViewController.swift */; };
+		469B0AE428885C3000B45A3F /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B0AE328885C3000B45A3F /* MeditationViewController.swift */; };
 		EB18D19428870846004FD28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19328870846004FD28D /* AppDelegate.swift */; };
 		EB18D19628870846004FD28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19528870846004FD28D /* SceneDelegate.swift */; };
 		EB18D19828870846004FD28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19728870846004FD28D /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beach-waves-close-up-6757.mp3"; sourceTree = "<group>"; };
 		469B0ADF28884C6C00B45A3F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		469B0AE128885BDD00B45A3F /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		469B0AE328885C3000B45A3F /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
 		EB18D19028870846004FD28D /* testing github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB18D19328870846004FD28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB18D19528870846004FD28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				EB18D19528870846004FD28D /* SceneDelegate.swift */,
 				EB18D19728870846004FD28D /* ViewController.swift */,
 				EB18D19928870846004FD28D /* Main.storyboard */,
+				469B0AE328885C3000B45A3F /* MeditationViewController.swift */,
+				469B0AE128885BDD00B45A3F /* ChecklistViewController.swift */,
 				EB18D19F28870847004FD28D /* Assets.xcassets */,
 				EB18D1A128870847004FD28D /* LaunchScreen.storyboard */,
 				EB18D1A428870847004FD28D /* Info.plist */,
@@ -149,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB18D19828870846004FD28D /* ViewController.swift in Sources */,
+				469B0AE228885BDD00B45A3F /* ChecklistViewController.swift in Sources */,
 				EB18D19428870846004FD28D /* AppDelegate.swift in Sources */,
 				EB18D19628870846004FD28D /* SceneDelegate.swift in Sources */,
+				469B0AE428885C3000B45A3F /* MeditationViewController.swift in Sources */,
 				EB18D19E28870846004FD28D /* testing_github.xcdatamodeld in Sources */,
 				469B0AE028884C6C00B45A3F /* JournalViewController.swift in Sources */,
 			);
