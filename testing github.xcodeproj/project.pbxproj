@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469B0ADE28884B5800B45A3F /* beach-waves-close-up-6757.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */; };
+		469B0AE028884C6C00B45A3F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B0ADF28884C6C00B45A3F /* JournalViewController.swift */; };
 		EB18D19428870846004FD28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19328870846004FD28D /* AppDelegate.swift */; };
 		EB18D19628870846004FD28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19528870846004FD28D /* SceneDelegate.swift */; };
 		EB18D19828870846004FD28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19728870846004FD28D /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beach-waves-close-up-6757.mp3"; sourceTree = "<group>"; };
+		469B0ADF28884C6C00B45A3F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		EB18D19028870846004FD28D /* testing github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB18D19328870846004FD28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB18D19528870846004FD28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 		EB18D19228870846004FD28D /* testing github */ = {
 			isa = PBXGroup;
 			children = (
+				469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */,
 				EB18D19328870846004FD28D /* AppDelegate.swift */,
+				469B0ADF28884C6C00B45A3F /* JournalViewController.swift */,
 				EB18D19528870846004FD28D /* SceneDelegate.swift */,
 				EB18D19728870846004FD28D /* ViewController.swift */,
 				EB18D19928870846004FD28D /* Main.storyboard */,
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469B0ADE28884B5800B45A3F /* beach-waves-close-up-6757.mp3 in Resources */,
 				EB18D1A328870847004FD28D /* LaunchScreen.storyboard in Resources */,
 				EB18D1A028870847004FD28D /* Assets.xcassets in Resources */,
 				EB18D19B28870846004FD28D /* Main.storyboard in Resources */,
@@ -145,6 +152,7 @@
 				EB18D19428870846004FD28D /* AppDelegate.swift in Sources */,
 				EB18D19628870846004FD28D /* SceneDelegate.swift in Sources */,
 				EB18D19E28870846004FD28D /* testing_github.xcdatamodeld in Sources */,
+				469B0AE028884C6C00B45A3F /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

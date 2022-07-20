@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="97.767857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Journal View Controller-->
         <scene sceneID="7KM-bx-AMl">
             <objects>
-                <viewController id="qPP-qZ-k5e" sceneMemberID="viewController">
+                <viewController id="qPP-qZ-k5e" customClass="JournalViewController" customModule="testing_github" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6W6-dW-KR8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,11 +146,23 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="done"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pu-lv-Rs3">
+                                <rect key="frame" x="315" y="5" width="95" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Play sound"/>
+                                <connections>
+                                    <action selector="didTapWaveButton:" destination="qPP-qZ-k5e" eventType="touchUpInside" id="CCY-yh-zdB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ofo-hW-cw4"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="8jI-di-Hxg"/>
+                    <connections>
+                        <outlet property="waveButton" destination="5pu-lv-Rs3" id="RCY-5O-lTC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jJe-dr-KR9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
