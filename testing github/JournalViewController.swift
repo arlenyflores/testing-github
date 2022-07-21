@@ -13,12 +13,32 @@ class JournalViewController: UIViewController {
 
     @IBOutlet weak var waveButton: UIButton!
     
+    @IBOutlet weak var journalPrompt: UILabel!
     var player: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func happyPressed(_sender: Any) {
+        journalPrompt.text = "That's awesome! Why do you feel happy?"
+    }
+    
+    @IBAction func sadPressed(_ sender: Any) {
+        journalPrompt.text = "Oh no! Tell us why you feel sad."
+    }
+    
+    @IBAction func madPressed(_ sender: Any) {
+        journalPrompt.text = "Oh no! What's causing your anger?"
+    }
+    
+    @IBAction func excitedPressed(_ sender: Any) {
+        journalPrompt.text = "What's making you so excited?"
+    }
+    
+    @IBAction func disgustedPressed(_ sender: Any) {
+        journalPrompt.text = "What's making you feel disgusted?"
     }
     
     @IBAction func didTapWaveButton(_ sender: Any) {
