@@ -260,10 +260,10 @@
             </objects>
             <point key="canvasLocation" x="3421.739130434783" y="152.67857142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Meditation View Controller-->
         <scene sceneID="7tG-nk-cNj">
             <objects>
-                <viewController id="nDT-Ue-aSB" sceneMemberID="viewController">
+                <viewController id="nDT-Ue-aSB" customClass="MeditationViewController" customModule="testing_github" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5pj-jk-UKd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -284,11 +284,34 @@
                                     <segue destination="6ZW-8Y-xGU" kind="show" identifier="medToHome" id="qzn-8U-b75"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsj-Zl-xWF">
+                                <rect key="frame" x="167" y="121" width="84" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Self Love"/>
+                                <connections>
+                                    <action selector="selfLoveButtonPressed:" destination="nDT-Ue-aSB" eventType="touchUpInside" id="a6Q-i4-5ys"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGE-dZ-Epb">
+                                <rect key="frame" x="149" y="194" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Anger Release"/>
+                                <connections>
+                                    <action selector="angerReleaseButtonPressed:" destination="nDT-Ue-aSB" eventType="touchUpInside" id="qiw-w7-bST"/>
+                                    <action selector="selfLoveButtonPressed:" destination="nDT-Ue-aSB" eventType="touchUpInside" id="XFI-TQ-5ug"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bwm-IC-k0r"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="gaB-NW-wgc"/>
+                    <connections>
+                        <outlet property="angerReleaseButton" destination="KGE-dZ-Epb" id="rSg-0C-lY3"/>
+                        <outlet property="selfLoveButton" destination="Dsj-Zl-xWF" id="14y-dG-lBJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcx-Z3-4FE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -424,12 +447,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIo-r3-5xW">
-                                <rect key="frame" x="149" y="529" width="93" height="31"/>
+                                <rect key="frame" x="149" y="524" width="93" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Meditation"/>
                                 <connections>
-                                    <segue destination="nDT-Ue-aSB" kind="show" id="QAR-do-bsu"/>
+                                    <segue destination="nDT-Ue-aSB" kind="show" id="MBy-KT-fdX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="752-5J-XbU">
@@ -453,7 +476,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ePE-YO-GRy"/>
+        <segue reference="qzn-8U-b75"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
