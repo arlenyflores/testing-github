@@ -330,14 +330,20 @@
             <point key="canvasLocation" x="4252.1739130434789" y="164.73214285714286"/>
         </scene>
         <!--Checklist View Controller-->
-        <scene sceneID="pO9-7f-063">
+        <scene sceneID="J1e-FZ-sYP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="F6A-XJ-U7J" customClass="ChecklistViewController" customModule="testing_github" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="gAL-aV-8ZT"/>
+                <viewController id="3rl-x2-lT3" customClass="ChecklistViewController" customModule="testing_github" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zJH-fe-U8o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ray-vt-RUz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zz8-OK-dMW"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PlV-mA-iyr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJR-HA-bxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5994.202898550725" y="175.44642857142856"/>
+            <point key="canvasLocation" x="6097.1014492753629" y="159.375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jbs-My-WDk">
@@ -427,7 +433,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="752-5J-XbU">
-                                <rect key="frame" x="284" y="273" width="77" height="31"/>
+                                <rect key="frame" x="284" y="273" width="77" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.83770066499999996" green="0.66859877109999999" blue="0.5450741053" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -441,7 +447,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="kqQ-vI-xsR" kind="show" id="hy6-tU-May"/>
+                                    <segue destination="sct-pq-GVQ" kind="show" id="hzs-j5-2uw"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="morehands" translatesAutoresizingMaskIntoConstraints="NO" id="sgQ-Ry-OPb">
@@ -475,27 +481,35 @@
             <point key="canvasLocation" x="950.72463768115949" y="109.82142857142857"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="m6n-Ux-K8V">
+        <scene sceneID="Rfe-A7-L58">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="kqQ-vI-xsR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sct-pq-GVQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="Lfc-DO-BoN"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I7o-Yf-S6b">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationItem key="navigationItem" id="DhX-jS-WZz">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="E1Z-mn-dPp">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="SHN-r5-vVE">
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3hH-aq-cCs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="F6A-XJ-U7J" kind="relationship" relationship="rootViewController" id="5ps-kp-Flb"/>
+                        <segue destination="3rl-x2-lT3" kind="relationship" relationship="rootViewController" id="WYd-2A-Keg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q9q-Eu-WNN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MYq-oI-gzd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5084.057971014493" y="175.44642857142856"/>
+            <point key="canvasLocation" x="5186.9565217391309" y="159.375"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JXw-y3-UIj"/>
+        <segue reference="ePE-YO-GRy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="angry kid" width="452" height="375"/>
