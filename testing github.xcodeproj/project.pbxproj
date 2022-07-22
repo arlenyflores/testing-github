@@ -13,6 +13,7 @@
 		469B0AE428885C3000B45A3F /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B0AE328885C3000B45A3F /* MeditationViewController.swift */; };
 		469B0AE62888D10C00B45A3F /* selfLoveMeditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 469B0AE52888D10C00B45A3F /* selfLoveMeditation.mp3 */; };
 		469B0AE82888D6E600B45A3F /* angerRelease.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 469B0AE72888D6E600B45A3F /* angerRelease.mp3 */; };
+		469B0AF2288ADC0D00B45A3F /* oceanvisualization.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 469B0AF1288ADC0D00B45A3F /* oceanvisualization.mp3 */; };
 		EB18D19428870846004FD28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19328870846004FD28D /* AppDelegate.swift */; };
 		EB18D19628870846004FD28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19528870846004FD28D /* SceneDelegate.swift */; };
 		EB18D19828870846004FD28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB18D19728870846004FD28D /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		469B0AE328885C3000B45A3F /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
 		469B0AE52888D10C00B45A3F /* selfLoveMeditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = selfLoveMeditation.mp3; sourceTree = "<group>"; };
 		469B0AE72888D6E600B45A3F /* angerRelease.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = angerRelease.mp3; sourceTree = "<group>"; };
+		469B0AF1288ADC0D00B45A3F /* oceanvisualization.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oceanvisualization.mp3; sourceTree = "<group>"; };
 		EB18D19028870846004FD28D /* testing github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB18D19328870846004FD28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB18D19528870846004FD28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				469B0ADD28884B5800B45A3F /* beach-waves-close-up-6757.mp3 */,
 				469B0AE52888D10C00B45A3F /* selfLoveMeditation.mp3 */,
+				469B0AF1288ADC0D00B45A3F /* oceanvisualization.mp3 */,
 				469B0AE72888D6E600B45A3F /* angerRelease.mp3 */,
 				EB18D19328870846004FD28D /* AppDelegate.swift */,
 				469B0ADF28884C6C00B45A3F /* JournalViewController.swift */,
@@ -149,6 +152,7 @@
 				469B0AE82888D6E600B45A3F /* angerRelease.mp3 in Resources */,
 				469B0ADE28884B5800B45A3F /* beach-waves-close-up-6757.mp3 in Resources */,
 				EB18D1A328870847004FD28D /* LaunchScreen.storyboard in Resources */,
+				469B0AF2288ADC0D00B45A3F /* oceanvisualization.mp3 in Resources */,
 				469B0AE62888D10C00B45A3F /* selfLoveMeditation.mp3 in Resources */,
 				EB18D1A028870847004FD28D /* Assets.xcassets in Resources */,
 				EB18D19B28870846004FD28D /* Main.storyboard in Resources */,

@@ -12,6 +12,7 @@ class MeditationViewController: UIViewController {
 
     @IBOutlet weak var selfLoveButton: UIButton!
     @IBOutlet weak var angerReleaseButton: UIButton!
+    @IBOutlet weak var oceanButton: UIButton!
     
     var player: AVAudioPlayer?
     
@@ -27,6 +28,34 @@ class MeditationViewController: UIViewController {
         }
         else {
             let urlString = Bundle.main.path(forResource: "angerRelease", ofType: "mp3")
+            
+            //set up player and play
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else {
+                    return
+                }
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else {
+                    return
+                }
+                
+                player.play()
+        }
+            catch {
+                print("something went wrong")
+            }
+    }
+    }
+    @IBAction func oceanButtonPressed(_ sender: Any) {
+        if let player = player, player.isPlaying {
+            //stop playback
+        }
+        else {
+            let urlString = Bundle.main.path(forResource: "oceanvisualization", ofType: "mp3")
             
             //set up player and play
             do {
@@ -77,6 +106,8 @@ class MeditationViewController: UIViewController {
                 print("something went wrong")
             }
     }
+        
+        
         
         
         
